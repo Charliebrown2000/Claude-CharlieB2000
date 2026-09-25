@@ -29,38 +29,66 @@
 
 ## Bloque de estilo de la casa (plantilla)
 
-Reemplaza los corchetes según la época/proyecto. Esta es la plantilla por
-defecto de "historia-en-video-ia" (protagonista sin rostro + fondo detallado):
+**Validado contra referencia real de canal el 2026-09-25.** El primer intento de
+este bloque describía dos técnicas distintas (fondo "pintado tipo concept art"
++ personaje "plano"), y al compararlo con capturas reales del estilo de
+referencia quedó claro que es **una sola técnica aplicada por igual a personaje
+y fondo**: ilustración de tinta suelta + acuarela plana, no pintura digital
+cinematográfica. El contraste real está en la *complejidad del contenido*
+(personaje simple vs. escena llena de objetos/gente), no en dos calidades de
+render distintas. Si vuelves a ajustar el estilo con el usuario, actualiza este
+bloque en vez de mantener las dos versiones.
+
+Reemplaza los corchetes según la época/proyecto:
 
 **Para Nano Banana:**
 ```
-Style: hand-painted digital concept art, richly detailed [ERA/SETTING] background
-with [COLOR PALETTE] tones and soft painterly brushwork. The protagonist is a
-minimalist faceless character: a plain white circle head with a thin black
-outline and no facial features (only simple drawn eyebrows and mouth if showing
-strong emotion), simple stick-figure body in [PERIOD CLOTHING]. Strong contrast
-between the simple character and the richly detailed environment. Horizontal
-16:9 format.
+Style: hand-drawn ink and watercolor sketch illustration. Loose, slightly rough
+ink linework with visible pen strokes, the same line quality on both the
+character and the background — not clean vector lines, not painterly digital
+rendering. Flat to lightly shaded watercolor-style coloring in a muted,
+desaturated palette of [COLOR PALETTE], with soft even lighting and no strong
+directional shadows. The background is rich in content and detail ([ERA/SETTING])
+but drawn economically, without photorealistic texture; a soft vignette darkens
+the edges like aged paper. The protagonist has a plain circle head with a thin
+black ink outline and cream fill, either fully blank or with simple small dot
+eyes and little to no mouth, a thin stick-figure body wearing [PERIOD CLOTHING]
+as flat-colored clothing blocks with no shading detail. Distant background
+characters are simplified further, sometimes drawn as faint outlines only.
+Horizontal 16:9 format.
 ```
 
 **Para GPT Image** (idéntico, sin la última frase; el 16:9 va en el parámetro `size`):
 ```
-Style: hand-painted digital concept art, richly detailed [ERA/SETTING] background
-with [COLOR PALETTE] tones and soft painterly brushwork. The protagonist is a
-minimalist faceless character: a plain white circle head with a thin black
-outline and no facial features (only simple drawn eyebrows and mouth if showing
-strong emotion), simple stick-figure body in [PERIOD CLOTHING]. Strong contrast
-between the simple character and the richly detailed environment.
+Style: hand-drawn ink and watercolor sketch illustration. Loose, slightly rough
+ink linework with visible pen strokes, the same line quality on both the
+character and the background — not clean vector lines, not painterly digital
+rendering. Flat to lightly shaded watercolor-style coloring in a muted,
+desaturated palette of [COLOR PALETTE], with soft even lighting and no strong
+directional shadows. The background is rich in content and detail ([ERA/SETTING])
+but drawn economically, without photorealistic texture; a soft vignette darkens
+the edges like aged paper. The protagonist has a plain circle head with a thin
+black ink outline and cream fill, either fully blank or with simple small dot
+eyes and little to no mouth, a thin stick-figure body wearing [PERIOD CLOTHING]
+as flat-colored clothing blocks with no shading detail. Distant background
+characters are simplified further, sometimes drawn as faint outlines only.
 ```
+
+### Qué evitar (aprendido de la comparación con la referencia)
+
+- Pintura digital cinematográfica, con luz direccional fuerte y sombras marcadas.
+- Textura fotorrealista de superficie (trama de tela, grano de piedra, textura de comida).
+- Proporciones anatómicamente naturalistas.
+- Describir el fondo y el personaje como si usaran dos técnicas distintas — es una sola.
 
 ### Ejemplos de sustitución por época
 
 | Proyecto | [ERA/SETTING] | [COLOR PALETTE] | [PERIOD CLOTHING] |
 |---|---|---|---|
-| Edad Media | medieval town, timber-framed houses, public bathhouse | warm sepia and ochre | a basic medieval tunic |
-| Antigua Roma | Roman forum, marketplace, villa interior | warm amber and terracotta | a simple toga or tunic |
-| Egipto | Nile riverbank, mudbrick village, temple courtyard | warm gold and sandstone | linen kilt or dress |
-| Imperio Inca | Andean stone terraces, Cusco streets, adobe village | earthy red-brown and turquoise accents | a simple unku tunic |
+| Edad Media | a medieval town with timber-framed houses and a public bathhouse | dusty tan, cream, aged parchment beige and warm grey-brown | a basic medieval tunic |
+| Antigua Roma | a Roman forum, marketplace or military camp with tents | dusty tan, faded terracotta and warm grey-brown | a simple toga, tunic or Roman soldier's armor |
+| Egipto | a Nile riverbank, mudbrick village or temple courtyard | dusty tan, cream and faded gold-sandstone | a linen kilt or dress |
+| Imperio Inca | Andean stone terraces, Cusco streets or an adobe village | dusty tan, cream and muted red-brown with faint turquoise accents | a simple unku tunic |
 
 ## Cuando el proyecto pide otro estilo (no concept art de vida cotidiana)
 

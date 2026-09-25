@@ -91,11 +91,15 @@ hace en las herramientas de audio/edición que use el usuario.
 
 ## Identidad visual de la casa (adaptable por proyecto)
 
-El formato por defecto usa un **protagonista sin rostro** (círculo blanco liso
-con contorno fino, sin rasgos salvo cejas/boca simples en momentos de emoción
-fuerte) sobre un **fondo pintado muy detallado**, estilo concept art. El
-contraste entre lo simple y lo detallado es la marca visual: barato y rápido de
-generar, y el espectador se proyecta en el personaje.
+El formato por defecto es una **ilustración de tinta suelta + acuarela plana**
+(línea de pluma visible, coloreado plano y desaturado, viñeta suave de papel
+envejecido) aplicada **por igual al personaje y al fondo** — no son dos
+técnicas distintas. El protagonista es un círculo simple con contorno fino de
+tinta, casi siempre sin rasgos o con puntos simples como ojos, sobre un fondo
+del mismo trazo que puede tener mucho contenido (edificios, objetos, gente)
+pero sin textura fotorrealista. El contraste real está en la complejidad del
+contenido, no en la calidad del render. Ver el bloque de estilo completo y
+qué evitar en `references/prompting-imagenes.md`.
 
 Esto se adapta a cualquier época cambiando solo la paleta de color, la
 vestimenta y la arquitectura del fondo (ver la tabla de ejemplos en
