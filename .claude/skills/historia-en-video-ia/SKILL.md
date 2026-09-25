@@ -90,6 +90,15 @@ escenas quedaron como imagen fija, cuáles como video generado, y qué falta
 (voz narrada, música, subtítulos, edición) — eso queda fuera de esta skill, se
 hace en las herramientas de audio/edición que use el usuario.
 
+## Canal del usuario
+
+**"La Edad Media sin filtro"** — nombre confirmado por el usuario el
+2026-09-25. Primer proyecto activo: vida cotidiana en la Edad Media, con el
+piloto "Así se bañaba la gente en la Edad Media (y no era lo que crees)" ya en
+producción (ver el guion de 15 escenas que el usuario tiene en local). Si el
+usuario abre un proyecto de otra época (Roma, Egipto, Incas), pregunta si va
+en este mismo canal o si es uno nuevo — no asumas.
+
 ## Canal de referencia
 
 [Te lo Cuento Roma](https://www.youtube.com/@TeloCuentoRoma) es la referencia
