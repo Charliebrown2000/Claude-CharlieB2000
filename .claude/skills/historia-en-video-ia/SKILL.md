@@ -89,6 +89,18 @@ escenas quedaron como imagen fija, cuáles como video generado, y qué falta
 (voz narrada, música, subtítulos, edición) — eso queda fuera de esta skill, se
 hace en las herramientas de audio/edición que use el usuario.
 
+## Canal de referencia
+
+[Te lo Cuento Roma](https://www.youtube.com/@TeloCuentoRoma) es la referencia
+visual y narrativa oficial de este proyecto: guion de vida cotidiana en la
+antigüedad, títulos que comparan con hoy, y la ilustración de tinta suelta +
+acuarela plana descrita abajo. El canal en sí es inaccesible desde este
+entorno (YouTube bloqueado), así que el estilo quedó **extraído y validado a
+mano contra capturas de pantalla que el usuario compartió** el 2026-09-25, no
+contra un scraping del canal. Si el usuario comparte más capturas o cambia de
+referencia, actualiza el bloque de estilo de abajo y
+`references/prompting-imagenes.md` en vez de mantener dos fuentes de verdad.
+
 ## Identidad visual de la casa (adaptable por proyecto)
 
 El formato por defecto es una **ilustración de tinta suelta + acuarela plana**
