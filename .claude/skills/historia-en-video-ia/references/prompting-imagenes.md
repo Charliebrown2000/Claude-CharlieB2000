@@ -80,6 +80,22 @@ characters are simplified further, sometimes drawn as faint outlines only.
 - Textura fotorrealista de superficie (trama de tela, grano de piedra, textura de comida).
 - Proporciones anatómicamente naturalistas.
 - Describir el fondo y el personaje como si usaran dos técnicas distintas — es una sola.
+- **Sobre-desaturar el color** hasta casi escala de grises — algunos modelos (ej.
+  Nano Banana 2 sin "Pro") se van a ese extremo con "muted palette"; si pasa,
+  agrega al prompt *"keep the color balance similar to the reference image, not
+  overly gray or desaturated"*.
+- **Viñeta como marco definido** en vez de un degradado suave en las esquinas —
+  agrega *"a soft, subtle vignette at the edges, not a heavy defined frame"* si
+  el modelo la exagera.
+
+### Continuidad del protagonista: fija los accesorios, no solo el estilo
+
+El diseño base (círculo con contorno de tinta) no basta para mantener
+consistencia — accesorios como un gorro o un bolso cruzado pueden aparecer o
+desaparecer entre generaciones si no se fijan explícitamente. En cuanto el
+usuario apruebe una imagen de referencia, anota qué accesorios lleva el
+personaje en ese proyecto y repítelos en el texto de cada prompt (además de
+adjuntar la imagen), no asumas que la imagen de referencia sola es suficiente.
 
 ### Ejemplos de sustitución por época
 
